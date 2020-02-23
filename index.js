@@ -4,7 +4,7 @@ const client = new Discord.Client();
 //Your token
 var token = '';
 //Your server id (right click server and copy id)
-var guildId = '157175177257275';
+var guildId = '';
 
 
 client.on('ready', () => {
