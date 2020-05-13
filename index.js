@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 //Your token
-var token = '';
+client.login(process.env.BOT_TOKEN);
 //Your server id (right click server and copy id)
 var guildId = '';
 
